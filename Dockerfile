@@ -67,7 +67,7 @@ RUN cd $HOME/work;\
     python -m sos_notebook.install;\
     git clone --single-branch -b master https://github.com/mathieuboudreau/sos_matlab_bug.git;                            \
     cd sos_matlab_bug;\
-    chmod -R 777 $HOME/work/sos_matlab_bug; \
+    chmod -R 777 $HOME/work/sos_matlab_bug
 
 WORKDIR $HOME/work/sos_matlab_bug
 
